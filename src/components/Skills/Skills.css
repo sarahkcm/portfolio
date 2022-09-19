@@ -1,0 +1,29 @@
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 300px;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+    
+    height: 100px;
+    width: 32%;
+    border-radius: 10px;
+    margin: 47px;
+  }
+  
+
+
+  .Title-Skills{
+ color: rgb(247, 173, 1);
+    margin: 2rem 1rem;
+  }
+  

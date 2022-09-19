@@ -1,0 +1,62 @@
+.heading-project {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.container-project {
+  max-width: 740px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  grid-gap: 40px;
+}
+
+.card-project {
+  background: #1a1919;
+  padding: 1.2rem 7rem;
+}
+
+.card-project img {
+  width: 100%;
+}
+
+.project-tit {
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.detail-project {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+.button-project {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.button-project .btn {
+  padding: 0.5rem 1rem;
+}
+
+.Tech{
+    text-align: justify;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.detail-project .logo{
+    width: 30%;
+}
+
+@media screen and (max-width: 740px) {
+  .container-project {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}

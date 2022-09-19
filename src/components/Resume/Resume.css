@@ -1,0 +1,65 @@
+.resume{
+    width: 100%;
+    margin: 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.name{
+    margin: 0 0 20px;
+}
+
+.resume .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+.resume .left p{
+    margin: 1.2rem 0;
+}
+
+.photo img {
+    border-radius: 50%;
+    max-width: 190px;
+    margin: auto;
+}
+
+.education{
+    color: rgb(247, 173, 1);
+    margin: 2rem 1rem;
+}
+
+.wrapper {
+    width: "90%";
+    padding: "24px 20px";
+    background-color: rgb(19, 18, 18); 
+    border: 1px solid rgba(236, 244, 9, 0.12);
+    border-radius: 10px;
+    padding: 0 1rem;
+    margin-block-start: 10%;
+   
+
+  }
+
+  .wrapper span{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Outfit' sans-serif;
+  }
+
+  .wrapper span:hover{
+    background: transparent;
+    color: rgb(203, 167, 7);
+    transition: 0.3s;
+  }
+
+  .wrapper p:hover{
+    background: transparent;
+    color: rgb(203, 167, 7);
+    transition: 0.3s;
+  }
