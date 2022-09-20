@@ -7,7 +7,6 @@ import WorkCard from '../WorkCard/WorkCard'
 const Work = () => {
   return (
     <div className='container-work'>
-      WorkCard
       <h1 className='heading-project'>Projects</h1>
       <div className='container-project'>
         {ProjectData.map((e,i) => {
